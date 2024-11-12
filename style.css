@@ -1,0 +1,353 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #f2e5e5;
+    background-color: #4e3f49;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #3b0915;
+    color: #f0e7e7;
+}
+
+header h1 {
+    font-size: 24px;
+}
+
+header nav a {
+    margin-left: 15px;
+    color: #e8e4e4;
+    text-decoration: none;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+/* This is heading Tag */
+.hero {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #6d0d1b;
+}
+
+.hero h2 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.hero button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #333;
+    color: #dd2323;
+    border: none;
+}
+
+.hero button:hover {
+    background-color: #555;
+}
+
+/* Products Section */
+.products {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #534b4b;  /* Changed to black */
+    color: white;  /* Adjusted text color for contrast */
+}
+
+.products h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.product-list {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.product-row {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    flex-wrap: wrap;
+}
+
+.product-item {
+    width: 220px; /* Increase width to fit text in one line */
+    padding: 20px;
+    text-align: center;
+    background-color: #3b0909;
+    border-radius: 12px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* Darker shadow for more contrast */
+    margin-bottom: 20px;
+}
+
+.product-item img {
+    width: 80%; /* Increase image size */
+    border-radius: 8px;
+    margin-bottom: 15px; /* More space below the image */
+}
+
+.product-item h3 {
+    font-size: 18px; /* Slightly smaller font size */
+    margin-bottom: 5px;
+}
+
+.product-item p {
+    font-size: 16px;/* General Reset */
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    body {
+        font-family: Arial, sans-serif;
+        color: #423333;
+        background-color: #4e3f49;
+    }
+    
+    /* Header */
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+        background-color: #2d556a;
+        color: #f0e7e7;
+    }
+    
+    header h1 {
+        font-size: 24px;
+    }
+    
+    header nav a {
+        margin-left: 15px;
+        color: #e8e4e4;
+        text-decoration: none;
+    }
+    
+    header nav a:hover {
+        text-decoration: underline;
+    }
+    
+    /* This is heading Tag */
+    .hero {
+        text-align: center;
+        padding: 50px 20px;
+        background-color: #da6e16;
+    }
+    
+    .hero h2 {
+        font-size: 36px;
+        margin-bottom: 10px;
+    }
+    
+    .hero p {
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+    
+    .hero button {
+        padding: 10px 20px;
+        font-size: 16px;
+        cursor: pointer;
+        background-color: #333;
+        color: #dd2323;
+        border: none;
+    }
+    
+    .hero button:hover {
+        background-color: #555;
+    }
+    
+    /* Products Section */
+    .products {
+        padding: 50px 20px;
+        text-align: center;
+        background-color: #534b4b;  /* Changed to black */
+        color: white;  /* Adjusted text color for contrast */
+    }
+    
+    .products h2 {
+        font-size: 32px;
+        margin-bottom: 20px;
+    }
+    
+    .product-list {
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+    
+    .product-row {
+        display: flex;
+        justify-content: center;
+        gap: 100px;
+        flex-wrap: wrap;
+    }
+    
+    .product-item {
+        width: 220px; /* Increase width to fit text in one line */
+        padding: 20px;
+        text-align: center;
+        background-color: #3b0909;
+        border-radius: 12px;
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* Darker shadow for more contrast */
+        margin-bottom: 20px;
+    }
+    
+    .product-item img {
+        width: 100%; /* Ensure the image fills the width of the container */
+        height: 200px; /* Set a fixed height to make all images uniform */
+        object-fit: cover; /* Ensures the image covers the specified dimensions without distortion */
+        border-radius: 8px;
+        margin-bottom: 15px; /* More space below the image */
+    }
+    
+    .product-item h3 {
+        font-size: 18px; /* Slightly smaller font size */
+        margin-bottom: 5px;
+    }
+    
+    .product-item p {
+        font-size: 16px;
+        color: whitesmoke;
+        margin-top: 5px; /* Add space above the price */
+    }
+    
+    /* Contact Section */
+    .contact {
+        padding: 50px 20px;
+        text-align: center;
+        background-color: black;  /* Changed to black */
+        color: #fff;  /* Adjusted text color for contrast */
+    }
+    
+    .contact form {
+        display: inline-block;
+        max-width: 400px;
+        width: 100%;
+    }
+    
+    .contact input, .contact textarea {
+        width: 100%;
+        margin: 10px 0;
+        padding: 10px;
+        border-radius: 4px;
+        border: 1px solid #ccc;
+    }
+    
+    .contact button {
+        padding: 10px 20px;
+        background-color: #333;
+        color: #fff;
+        border: none;
+        cursor: pointer;
+    }
+    
+    .contact button:hover {
+        background-color: #555;
+    }
+    
+    /* Footer */
+    footer {
+        text-align: center;
+        padding: 10px;
+        background-color: #333;
+        color: #fff;
+    }
+    
+    /* Responsive Design */
+    @media (max-width: 768px) {
+        .product-row {
+            flex-direction: column;
+            align-items: center;
+        }
+    
+        .product-item {
+            width: 100%; /* Stacks items on smaller screens */
+        }
+    }
+    
+    color: whitesmoke;
+    margin-top: 5px; /* Add space above the price */
+}
+
+
+
+
+/* Contact Section */
+.contact {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: black;  /* Changed to black */
+    color: #fff;  /* Adjusted text color for contrast */
+}
+
+.contact form {
+    display: inline-block;
+    max-width: 400px;
+    width: 100%;
+}
+
+.contact input, .contact textarea {
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+.contact button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.contact button:hover {
+    background-color: #555;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .product-row {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .product-item {
+        width: 100%; /* Stacks items on smaller screens */
+    }
+}
+
+
